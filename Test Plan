@@ -1,0 +1,28 @@
+# Banking Application Test Plan
+
+## Objective
+Verify that the online banking application functions correctly and securely.
+
+## Scope
+- Login
+- Dashboard
+- Balance Inquiry
+- Fund Transfer
+- Bill Payment
+- Transaction History
+
+## Test Types
+- Functional Testing
+- Regression Testing
+- Smoke Testing
+- Negative Testing
+- UI Testing
+
+## Test Environment
+- Windows 11
+- Chrome
+- Microsoft Edge
+
+## Exit Criteria
+- All critical defects resolved.
+- All high-priority test cases pass.
