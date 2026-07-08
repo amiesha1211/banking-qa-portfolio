@@ -1,0 +1,50 @@
+# Sample Bug Reports
+
+## BUG001 - Negative Transfer Amount Accepted
+
+Severity: High
+Priority: High
+
+Steps:
+1. Login.
+2. Open Transfer Funds.
+3. Enter -100.
+4. Submit.
+
+Expected Result:
+System rejects negative values.
+
+Actual Result:
+Transfer is accepted.
+
+---
+
+## BUG002 - Transfer Button Can Be Clicked Multiple Times
+
+Severity: Medium
+
+Steps:
+1. Complete a transfer.
+2. Double-click Transfer quickly.
+
+Expected Result:
+Only one transfer request is processed.
+
+Actual Result:
+Multiple transfer requests are submitted.
+
+---
+
+## BUG003 - Account Balance Not Updated After Transfer
+
+Severity: Critical
+
+Steps:
+1. Transfer RM50.
+2. Return to Dashboard.
+
+Expected Result:
+Balance decreases by RM50.
+
+Actual Result:
+Old balance remains until the page is refreshed.
