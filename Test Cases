@@ -1,0 +1,61 @@
+# Banking Application Test Cases
+
+## TC001 - Valid Login
+Precondition:
+- User account exists.
+
+Steps:
+1. Open the banking application.
+2. Enter a valid username and password.
+3. Click Login.
+
+Expected Result:
+User is redirected to the account dashboard.
+
+---
+
+## TC002 - Invalid Login
+
+Steps:
+1. Enter an invalid password.
+2. Click Login.
+
+Expected Result:
+An error message "Invalid username or password" is displayed.
+
+---
+
+## TC003 - Fund Transfer with Valid Amount
+
+Steps:
+1. Login.
+2. Navigate to Transfer Funds.
+3. Select source and destination accounts.
+4. Enter RM100.
+5. Click Transfer.
+
+Expected Result:
+Transfer is successful and account balances are updated.
+
+---
+
+## TC004 - Fund Transfer Exceeding Balance
+
+Steps:
+1. Login.
+2. Enter an amount greater than the available balance.
+3. Submit.
+
+Expected Result:
+Transfer is rejected with an "Insufficient Funds" message.
+
+---
+
+## TC005 - View Transaction History
+
+Steps:
+1. Login.
+2. Open Transaction History.
+
+Expected Result:
+Recent transactions are displayed in chronological order.
